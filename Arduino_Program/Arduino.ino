@@ -21,8 +21,8 @@ Adafruit_SSD1306 OLEDScreen(PixelsLenghtOLED, PixelsWidthOLED, &Wire, ResetPinOL
 
 // BLUETOOTH
 #include <SoftwareSerial.h>
-#define rxPin 10                                                          //Pin 11 as RX, connect to TX of HC-05
-#define txPin 11                                                          //Pin 10 as RX, connect to TX of HC-05
+#define rxPin 9                                                          //Pin 11 as RX, connect to TX of HC-05
+#define txPin 8                                                          //Pin 10 as RX, connect to TX of HC-05
 #define Clock 50                                                          //Clock for sending data via bluetooth
 
 SoftwareSerial mySerial(rxPin ,txPin);                                    //Definition of software serial
@@ -97,9 +97,9 @@ void loop() {
 
   Serial.println(SensorResistance);                                       //data display on serial monitor
 
-  if (abs(millis()-t) > Period) {                                
+  if (abs(millis()-t) > Clock){                                
     t=millis();
-    byte V = map(sensorResistance,0,1023,0,255);                          //converts resistance to byte 
+    byte V = map(sensorValue,0,1023,0,255);                          //converts resistance to byte 
     mySerial.write(V);                                                    //send data to smartphone
   }
 
