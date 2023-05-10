@@ -48,7 +48,9 @@ Les composants nécessaires à la réalisation du circuit analogique sont cités
 
 Le logiciel LTSpice nous a permis de simuler le circuit analogique dans lequel est intégré notre capteur. Le signal est filtré et amplifié par un LTC1050.
 
-Ce circuit peut être retrouvé dans la [datasheet](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/Datasheet/Datasheet.pdf).
+![spice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/LTSpice/Circuit%20LTSpice.PNG)
+
+Ce circuit peut être retrouvé dans le dossier [LTSpice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/LTSpice).
 
 <div id='pcb'/>
 
