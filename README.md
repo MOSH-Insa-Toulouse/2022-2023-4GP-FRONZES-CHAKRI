@@ -58,11 +58,15 @@ Ce circuit peut être retrouvé dans le dossier [LTSpice](https://github.com/MOS
 
 Afin de concevoir le PCB, nous avons commencé par dessiner le schéma électronique et ses composants sur KiCad, dans un fichier Schematic. Il s'agissait de relier les pins des composants à ceux de l'Arduino et de choisir leurs empreintes.
 
+![schematic](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/KiCad/KiCad_sch%C3%A9matique.png)
+
 Dans un second temps, nous avons placé les composants sur le PCB, de sorte qu'ils ne se chevauchent pas, en s'assurant de la bonne largeur des pistes et des pins.
+
+![pcb](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/KiCad/KiCad_PCB.png)
 
 Dans un troisième temps, Mme Crouzet nous a accompagnés dans l'impression physique du circuit, puis nous avons percé le PCB (trous de 0.8 mm pour l'ensemble des pins, exceptés ceux de l'Arduino qui font 1 mm).
 
-Le dossier comportant tous les fichiers KiCad est disponible [ici].
+Le dossier comportant tous les fichiers KiCad est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/KiCad).
 
 <div id='app'/>
 
@@ -72,7 +76,11 @@ Les mesures réalisées grâce au capteur de graphite sont envoyées via le modu
 
 Voici l'écran avec le graphique, c'est-à-dire la face avant :
 
+![favant](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/Bluetooth_Application/Front_Panel.jpg)
+
 Et ci-dessous le schéma bloc de la face arrière :
+
+![farrière](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/Bluetooth_Application/Back_Panel.PNG)
 
 Vous pouvez trouver le code de l'application dans le dossier [Application](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/Bluetooth_Application).
 
