@@ -60,15 +60,23 @@ The strain sensor is passive and needs a conditionner. The measured resistance i
 ![spice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/LTSpice/Circuit%20LTSpice.PNG)
 
 Use of a LTC1050 amplifier:
+
 > Low input current
+
 > Low offset tension
+
 > Insensitivity to common mode
 
 Role of the different components:
+
 > R5 protects the amplifier against electrostatic discharges, and makes a filter for voltage noise with C1
+
 > C1 and R1 make a filter for current noise
+
 > R2 is replaceable: by using the digital potentiometer instead, we can modify the gain of the system
+
 > C4 and R3 make an active filter
+
 > C2 and R6 make a passive output filter
 
 We calculated the value of the sensor resistance based on all the components of the circuit: 𝑹_𝒔𝒆𝒏𝒔=(𝟏+𝑹_𝟑/𝑹_𝟐 )(𝑽_𝒄𝒄/𝑽_𝒂𝒅𝒄 )−𝑹_𝟏−𝑹_𝟓
@@ -88,10 +96,15 @@ Secondly, we placed the components on the PCB so that they did not overlap, maki
 ![pcb](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/KiCad/KiCad_PCB.png)
 
 Thirdly, Mrs Crouzet helped us print the circuit, with five steps:
+
 > The circuit is printed on a plastic film
+
 > UV insolation: the mask is deposited on a wafer covered with copper and photoresist
+
 > Development to remove the resist
+
 > Etching with an iron perchloride bath
+
 > The remaining resist is eliminated with acetone
 
 Then we drilled the PCB (0.8 mm holes for all the pins, except those of the Arduino which are 1 mm).
