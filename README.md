@@ -81,7 +81,7 @@ Role of the different components:
 
 We calculated the value of the sensor resistance based on all the components of the circuit: 𝑹_𝒔𝒆𝒏𝒔=(𝟏+𝑹_𝟑/𝑹_𝟐 )(𝑽_𝒄𝒄/𝑽_𝒂𝒅𝒄 )−𝑹_𝟏−𝑹_𝟓
 
-The circuit can be found in the [LTSpice] folder (https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/LTSpice).
+The circuit can be found in the [LTSpice](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/LTSpice) folder.
 
 <div id='pcb'/>
 
@@ -125,7 +125,7 @@ Below is a block diagram of the rear panel:
 
 ![rpanel](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/blob/main/Bluetooth_Application/Back_Panel.PNG)
 
-You can find the application code in the [Application] folder (https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/Bluetooth_Application).
+You can find the application code in the [Application](https://github.com/MOSH-Insa-Toulouse/2022-2023-4GP-FRONZES-CHAKRI/tree/main/Bluetooth_Application) folder.
 
 <div id='ard'/>
 
